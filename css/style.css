@@ -1,0 +1,42 @@
+.wrapper { text-align: center; }
+/* 垂直水平絕對置中 */
+.pos-center {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ball {
+	width: 205px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: linear-gradient(-180deg, #004D99 0%, #24367D 45%, #000000 40%, #000000 55%, #F5F5F5	55%, #FFFFFF 100%);
+    border: 2px solid #000000;
+    position: relative;
+    margin: auto;
+}
+
+.ball_ball {
+	width: 45%;
+    height: 45%;
+    border-radius: 100%;
+	background: #000000;
+}
+
+.ball_ball_ball {
+	width: 75%;
+    height: 75%;
+	border-radius: 100%;
+	background: #FFFFFF;
+}
+
+.ball_ball_ball_ball {
+	width: 72%;
+    height: 72%;
+    border-radius: 100%;
+    background: #AFEEEE;
+    border: 2px solid #000000;
+}
